@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+
+td{
+  width: 100px;
+  height: 100px
+}
+
+td:nth-child(2) {
+  border-left: 2px solid blue;
+  border-right:  2px solid blue;
+}
+
+tr:nth-child(2) td {
+  border-top: 2px solid blue;
+  border-bottom:  2px solid blue;
+}
